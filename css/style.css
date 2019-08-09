@@ -1,0 +1,19 @@
+body{
+	font-size: 26px;
+	color: #fff2e6;
+	background-color: #002233;
+	font-family: 'Kalam', cursive;
+}
+
+#header-nav{
+	background-color: #b3cce6;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img{
+	background: url('../images/logo.png') no-repeat;
+	width: 150px;
+	height:150px;
+	margin: 10px 15px 10px 0;
+}
