@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Karla|Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- navbar dark che contiene logo e menù a scomparsa -->
+        <nav id="navbar-brand" class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <!-- d-none d-sm-none servono per indicare che da 0 al display medio il logo non deve essere visualizzato -->
+                <div class="navbar-brand">
+                    <a href="index.html" class="float-left d-none d-sm-none d-md-block">
+                        <div id="logo-img" alt="Logo image"></div>
+                    </a>
+                    <!-- Intestazione pagina e sottotitolo -->
+                    <a href="index.html">
+                        <h1>Silvia Spacca</h1>
+                    </a>
+                    <p>
+                        <span>3d Artist | Graphic | Photographer</span>
+                    </p>
+                </div>
+                <!-- nav-brand -->
+
+                <!-- Impostazione pulsante menù a scomparsa per sito mobile -->
+                <button type="button" id="navbarToggle" class="navbar-toggler" data-toggle="collapse" data-target="#collapsable-nav" aria-controls="navbarTogglerCollapsable" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="navbar-nav ml-auto">
+                        <li class="d-block d-sm-none">
+                                <a href="index.html">
+                                        <span class="material-icons">home</span>Home
+                                </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="art-categories.html">
+                                <span class="material-icons">art_track</span><br class="d-none d-md-none d-lg-block">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="material-icons">info</span><br class="d-none d-md-none d-lg-block">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="material-icons">email</span><br class="d-none d-md-none d-lg-block">Contacts</a>
+                        </li class="nav-item">
+                        <li id="phone" class="d-none d-md-none d-lg-block"> <a href="003201258954"><span>003201258954</span></a>
+                            <div>Commissions are open!</div>
+                        </li>
+                    </ul>
+                    <!-- menù a scomparsa -->
+                </div>
+                <!-- navbar collapse -->
+            </div>
+            <!-- container -->
+        </nav>
+        <!-- header nav -->
+    </header>
+
+    <!-- numero di telefono per schermi piccoli -->
+    <div id="call-btn" class="d-block d-sm-block d-md-block d-lg-none">
+        <a class="btn" href="tel:003201258954">
+            <span class="material-icons">phone</span>003201258954</a>
+    </div>
+    <div id="xs-commission" class="text-center d-block d-lg-none">Commissions are open!</div>
+
+    <!-- Impostazioni MaintContent -->
+    <div id="main-content" class="container-fluid px-5">
+       <h2 id="art-categories-title" class="text-center">3D</h2>
+
+       <section class="row">
+            <div class="art-item-tile col-lg-6 col-md-12">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <!-- fotografia dell'oggetto-->
+                        <div class="art-item-photo">
+                            <div>Avgvsto</div>
+                            <img class="img-responsive" width="250" height="150" src="images/3d/3d-augusto.jpg" alt="cactus">
+                        </div>
+                        <div class="art-item-year">2018</div>
+                    </div>    
+                            <!-- informazioni sull'oggetto-->
+                    <div class="art-item-description col-sm-7">
+                        <h3 class="art-item-title">Software:</h3>
+                        <p class="art-item-details">3D Studio Max, Z-Brush, Substance Painter, Arnold Render, Photoshop</p>
+                    </div>
+                </div>
+                <hr class="d-block d-sm-none">
+            </div>
+
+            <div class="art-item-tile col-lg-6 col-md-12">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <!-- fotografia dell'oggetto-->
+                            <div class="art-item-photo">
+                                <div>Crow</div>
+                                <img class="img-responsive" width="250" height="150" src="images/3d/3d-corvo.jpg" alt="Crow">
+                            </div>
+                            <div class="art-item-year">2019</div>
+                        </div>    
+                                <!-- informazioni sull'oggetto-->
+                        <div class="art-item-description col-sm-7">
+                            <h3 class="art-item-title">Software:</h3>
+                            <p class="art-item-details"> Z-Brush, Substance Painter, Photoshop</p>
+                        </div>
+                    </div>
+                    <hr class="d-block d-sm-none">
+                </div>
+                <!-- questo div serve per mantenere allineati gli elementi anche se la descrizione di uno di essi è più lunga dell'immagine -->
+                <div class="clearfix d-md-block d-lg-block"></div> 
+
+                <div class="art-item-tile col-lg-6 col-md-12">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <!-- fotografia dell'oggetto-->
+                                <div class="art-item-photo">
+                                    <div>Village</div>
+                                    <img class="img-responsive" width="250" height="150" src="images/3d/3d-casetta.jpg" alt="Village">
+                                </div>
+                                <div class="art-item-year">2019</div>
+                            </div>    
+                                    <!-- informazioni sull'oggetto-->
+                            <div class="art-item-description col-sm-7">
+                                <h3 class="art-item-title">Software:</h3>
+                                <p class="art-item-details"> Maya, Zbrush, Substance Painter, Arnold Render, Photoshop</p>
+                            </div>
+                        </div>
+                        <hr class="d-block d-sm-none">
+                    </div>
+                    <div class="clearfix d-md-block d-lg-block"></div> 
+
+                    <div class="art-item-tile col-lg-6 col-md-12">
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <!-- fotografia dell'oggetto-->
+                                    <div class="art-item-photo">
+                                        <div>Bedroom</div>
+                                        <img class="img-responsive" width="250" height="150" src="images/3d/3d-letto.jpg" alt="bedroom">
+                                    </div>
+                                    <div class="art-item-year">2018</div>
+                                </div>    
+                                        <!-- informazioni sull'oggetto-->
+                                <div class="art-item-description col-sm-7">
+                                    <h3 class="art-item-title">Software:</h3>
+                                    <p class="art-item-details"> 3D Studio Max, Vray, Photoshop</p>
+                                </div>
+                            </div>
+                            <hr class="d-block d-sm-none">
+                        </div>
+                        <div class="clearfix d-md-block d-lg-block"></div> 
+
+                        <div class="art-item-tile col-lg-6 col-md-12">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <!-- fotografia dell'oggetto-->
+                                        <div class="art-item-photo">
+                                            <div>Rock</div>
+                                            <img class="img-responsive" width="250" height="150" src="images/3d/3d-roccia.jpg" alt="Rock">
+                                        </div>
+                                        <div class="art-item-year">2019</div>
+                                    </div>    
+                                            <!-- informazioni sull'oggetto-->
+                                    <div class="art-item-description col-sm-7">
+                                        <h3 class="art-item-title">Software:</h3>
+                                        <p class="art-item-details"> Maya, Z-Brush, Substance Painter, Arnold Render, Photoshop</p>
+                                    </div>
+                                </div>
+                                <hr class="d-block d-sm-none">
+                            </div>
+                            <div class="clearfix d-md-block d-lg-block"></div> 
+
+                            <div class="art-item-tile col-lg-6 col-md-12">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <!-- fotografia dell'oggetto-->
+                                            <div class="art-item-photo">
+                                                <div>Tank Girl</div>
+                                                <img class="img-responsive" width="250" height="150" src="images/3d/3d-tankgirl.jpg" alt="tankgirl">
+                                            </div>
+                                            <div class="art-item-year">2018</div>
+                                        </div>    
+                                                <!-- informazioni sull'oggetto-->
+                                        <div class="art-item-description col-sm-7">
+                                            <h3 class="art-item-title">Software:</h3>
+                                            <p class="art-item-details"> 3D Studio Max, Z-Brush, Substance Painter, V-ray, Photoshop</p>
+                                        </div>
+                                    </div>
+                                    <hr class="d-block d-sm-none">
+                                </div>
+                                <div class="clearfix d-md-block d-lg-block"></div> 
+       </section>
+    </div> <!-- fine di main-content -->
+
+    <footer class="panel-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Hours:</span><br>
+                    Mon-Fri:9:30am - 6:30pm
+                    <hr class="d-block d-sm-none">
+                </section>
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span><br>
+                    Wondelgemstraat 53,<br>
+                    9000 Gent, Belgium
+                    <hr class="d-block d-sm-none">
+                </section>
+                <section id="testimonials" class="col-sm-4">
+                    <p>"Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit."</p> 
+                    <p>"Sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, 
+                        neque porro quisquam est, qui dolorem ipsum, quia dolor sit!"</p>
+                </section>
+            </div>
+            <!-- div per il copyright -->
+            <div class="text-center">&copy; Copyright Silvia Spacca Graphic design 2019</div>
+        </div> <!-- fine container del footer -->
+    </footer>
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

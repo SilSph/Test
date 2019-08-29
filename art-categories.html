@@ -33,19 +33,19 @@
                 <!-- nav-brand -->
 
                 <!-- Impostazione pulsante menù a scomparsa per sito mobile -->
-                <button type="button" id="navbarToggle" class="navbar-toggler" data-toggle="collapse" data-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+                <button type="button" id="navbarToggle" class="navbar-toggler" data-toggle="collapse" data-target="#collapsable-nav" aria-controls="navbarTogglerCollapsable" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
                 <div id="collapsable-nav" class="collapse navbar-collapse">
                     <ul id="nav-list" class="navbar-nav ml-auto">
-                        <li id="navHomeButton" class="d-block d-sm-none active">
-                            <a href="index.html">
-                                    <span class="material-icons">home</span>Home
-                            </a>
+                        <li class="d-block d-sm-none">
+                                <a href="index.html">
+                                        <span class="material-icons">home</span>Home
+                                </a>
                         </li>
-                        <li id="navMenuButton" class="nav-item">
-                            <a class="nav-link" href="#" onclick="$dc.loadArtCategories();">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="art-categories.html">
                                 <span class="material-icons">art_track</span><br class="d-none d-md-none d-lg-block">Portfolio</a>
                         </li>
                         <li class="nav-item">
@@ -76,7 +76,45 @@
     </div>
     <div id="xs-commission" class="text-center d-block d-lg-none">Commissions are open!</div>
 
-    <div id="main-content" class="container-fluid px-5"></div>
+    <!-- Impostazioni MaintContent -->
+    <div id="main-content" class="container-fluid px-5">
+       <h2 id="categories-title" class="text-center">Art categories</h2>
+
+       <section class="row">
+           <div class="col-lg-3 col-md-6 col-xs-12">
+               <a href="single-category.html">
+                   <div class="category-tile">
+                       <img width="200" height="200" src="images/categories/3d-category.jpg" alt="3d">
+                       <span>3D</span>
+                   </div>
+               </a>
+           </div>
+           <div class="col-lg-3 col-md-6 col-xs-12">
+                <a href="single-category.html">
+                    <div class="category-tile">
+                        <img width="200" height="200" src="images/categories/drawing-category.jpg" alt="drawings">
+                        <span>Drawings</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-12">
+                <a href="single-category.html">
+                    <div class="category-tile">
+                        <img width="200" height="200" src="images/categories/graphic-category.jpg" alt="digital art">
+                        <span>Digital Art</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-12">
+                <a href="single-category.html">
+                    <div class="category-tile">
+                        <img width="200" height="200" src="images/categories/compositing-category.jpg" alt="drawings">
+                        <span>Compositing</span>
+                    </div>
+                </a>
+            </div>
+       </section>
+    </div> <!-- fine di main-content -->
 
     <footer class="panel-footer">
         <div class="container-fluid">
@@ -108,7 +146,6 @@
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/ajax-utils.js"></script>
     <script src="js/script.js"></script>
 </body>
 
