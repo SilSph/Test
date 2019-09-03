@@ -1,17 +1,20 @@
 [{
-	"id": 01,
+	"id": 1,
+	"short_name": "3D",
 	"name": "3Ds"
 },
 {
-	"id": 02,
+	"id": 2,
+	"short_name": "Gr",
 	"name": "graphics"
-	
-}
+},
 {
-	"id": 03,
+	"id": 3,
+	"short_name": "Ph",
 	"name": "compositings"
-}
+},
 {
-	"id": 04,
+	"id": 4,
+	"short_name": "Dr",
 	"name": "drawings"
 }]

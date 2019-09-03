@@ -1,0 +1,51 @@
+{"art_items": 
+	[{
+		"id": 1,
+		"short_name":"3D1",
+		"name":"Avgvsto",
+		"year":"2018",
+		"description":"3D Studio Max, Z-Brush, Substance Painter, Arnold Render, Photoshop"
+		},
+	{
+		"id": 2,
+		"short_name":"3D2",
+		"name":"Low Poly Village",
+		"year":"2019",
+		"description":"Maya, Zbrush, Substance Painter, Arnold Render, Photoshop"
+	},
+	{
+		"id": 3,
+		"short_name":"3D3",
+		"name": "Little Crow",
+		"year":"2019",
+		"description":"Z-Brush, Substance Painter, Photoshop"
+	},
+	{
+		"id": 4,
+		"short_name":"3D4",
+		"name":"Bedroom",
+		"year":"2018",
+		"description":"3D Studio Max, Vray, Photoshop"
+	},
+	{
+		"id": 5,
+		"short_name":"3D5",
+		"name":"Low Poly Rock",
+		"year":"2019",
+		"description":"Maya, Z-Brush, Substance Painter, Arnold Render, Photoshop"
+	},
+	{
+		"id": 6,
+		"short_name":"3D6",
+		"name":"3d-tankgirl",
+		"year":"2018",
+		"description":"3D Studio Max, Z-Brush, Substance Painter, V-ray, Photoshop"
+	},
+	{
+		"id": 7,
+		"short_name":"T1",
+		"name":"Test",
+		"year":"2018",
+		"description":"Test"
+	}]
+}

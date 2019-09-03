@@ -24,7 +24,11 @@ function getRequestObject() {
 // Makes an Ajax GET request to 'requestUrl'
 ajaxUtils.sendGetRequest = 
   function(requestUrl, responseHandler, isJsonResponse) {
+    console.log(requestUrl);
+    console.log(responseHandler);
+    console.log(isJsonResponse);
     var request = getRequestObject();
+    console.log(request);
     request.onreadystatechange = 
       function() { 
         handleResponse(request, 
@@ -51,6 +55,9 @@ function handleResponse(request,
     }
 
     if (isJsonResponse) {
+      console.log(request);
+      console.log(request.responseText);
+      console.log(JSON.parse(request.responseText));
       responseHandler(JSON.parse(request.responseText));
     }
     else {
